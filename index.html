@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="JSACTIVITY.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <br><br><br><br><br><br><br><br><br>
+        <div class="container w-25">
+            <div class="card bg-dark">
+                <div class="card-body px-5 py-5">
+                    <h1 class="text-center glow">Unit Converter</h1>
+                    <h2 class="text-center glow1">Mass</h2>
+                    <input type="number" class="form-control" name="massConverter" placeholder="Kilogram">
+                    <br>
+                    <input type="number" class="form-control" name="output" disabled>
+                    <br>
+                    <div class="center text-center">
+                        <button class="neon px-3 py-1 mx-2 rounded-3" onclick="ounce()">Ounce</button>
+                        <button class="neon px-3 py-1 mx-2 rounded-3" onclick="pound()">Pound</button>
+                        <button class="neon px-3 py-1 mx-2 rounded-3" onclick="gram()">Gram</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+</script>
+<script src="JSACTIVITY.js"></script>
+
+</html>
