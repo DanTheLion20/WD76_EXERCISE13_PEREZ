@@ -34,21 +34,21 @@ function pound() {
 function gram() {
     convertstone(6350);
 }
-//MILLIGRAM
-function convertmilligram(unitConverter) {
+//TONNE
+function convertonne(unitConverter) {
     var data = document.getElementsByName('massConverter')[0].value;
     var result = parseFloat(data) * unitConverter;
     document.getElementsByName('output')[0].value = result;
 }
 
 function ounce() {
-    convertmilligram(28350);
+    convertonne(35270);
 }
 
 function pound() {
-    convertmilligram(453600);
+    convertonne(2205);
 }
 
 function gram() {
-    convertmilligram(1000);
+    convertonne(1e+6);
 }
