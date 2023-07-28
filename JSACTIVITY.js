@@ -1,7 +1,7 @@
 //KILOGRAM
 function convertkg(unitConverter) {
-    var data = document.getElementsByName('massConverter')[0].value;
-    var result = parseFloat(data) * unitConverter;
+    let data = document.getElementsByName('massConverter')[0].value;
+    let result = parseFloat(data) * unitConverter;
     document.getElementsByName('output')[0].value = result;
 }
 
@@ -16,10 +16,11 @@ function pound() {
 function gram() {
     convertkg(1000);
 }
+
 //STONE
 function convertstone(unitConverter) {
-    var data = document.getElementsByName('massConverter')[0].value;
-    var result = parseFloat(data) * unitConverter;
+    let data = document.getElementsByName('massConverter')[0].value;
+    let result = parseFloat(data) * unitConverter;
     document.getElementsByName('output')[0].value = result;
 }
 
@@ -36,8 +37,8 @@ function gram1() {
 }
 //TONNE
 function convertonne(unitConverter) {
-    var data = document.getElementsByName('massConverter')[0].value;
-    var result = parseFloat(data) * unitConverter;
+    let data = document.getElementsByName('massConverter')[0].value;
+    let result = parseFloat(data) * unitConverter;
     document.getElementsByName('output')[0].value = result;
 }
 
