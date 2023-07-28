@@ -23,15 +23,15 @@ function convertstone(unitConverter) {
     document.getElementsByName('output')[0].value = result;
 }
 
-function ounce() {
+function ounce1() {
     convertstone(224);
 }
 
-function pound() {
+function pound1() {
     convertstone(14);
 }
 
-function gram() {
+function gram1() {
     convertstone(6350);
 }
 //TONNE
@@ -41,14 +41,14 @@ function convertonne(unitConverter) {
     document.getElementsByName('output')[0].value = result;
 }
 
-function ounce() {
+function ounce2() {
     convertonne(35270);
 }
 
-function pound() {
+function pound2() {
     convertonne(2205);
 }
 
-function gram() {
+function gram2() {
     convertonne(1e+6);
 }
