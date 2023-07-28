@@ -3,7 +3,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(45deg, #5433FF, #20BDFF, #A5FECB);
+    background: linear-gradient(45deg, #00F260, #0575E6, #A5FECB);
     background-size: 300% 300%;
     animation: gradient 10s ease-in-out infinite;
 }
@@ -43,7 +43,7 @@ input::-webkit-inner-spin-button {
 }
 
 .glow1 {
-    color: #c471ed;
+    color: #00F260;
     font-size: 3rem;
     text-shadow: 0 0 0.1em currentColor;
     font-family: 'Monoton', cursive;
@@ -56,34 +56,34 @@ input::-webkit-inner-spin-button {
 
 .neon {
     border: 2px solid rgb(255, 255, 255);
-    box-shadow: 3px 3px 3px 1px rgba(0, 255, 255, 0.7);
+    box-shadow: 3px 3px 3px 1px #12c2e9;
     font-family: 'Oooh Baby', cursive;
     font-size: 1.6rem;
     background: transparent;
-    color: #c471ed;
+    color: #00F260;
     text-shadow: 0 0 0.1em currentColor;
     transition: .5s;
 }
 
 .neon:hover {
     transform: translateY(-5px);
-    box-shadow: 5px 5px 5px 2px #c471ed;
+    box-shadow: 5px 5px 5px 2px #00F260;
 }
 
 .neon1 {
     border: 2px solid rgb(255, 255, 255);
-    box-shadow: 3px 3px 3px 1px rgba(0, 255, 255, 0.7);
+    box-shadow: 3px 3px 3px 1px #12c2e9;
     font-family: 'Oooh Baby', cursive;
     font-size: 1.6rem;
     background: transparent;
-    color: #c471ed;
+    color: #00F260;
     text-shadow: 0 0 0.1em currentColor;
 
 }
 
 .neon1:hover {
     transform: translateY(-5px);
-    box-shadow: 5px 5px 5px 2px #c471ed;
+    box-shadow: 5px 5px 5px 2px #00F260;
     transition: .5s;
 
 }
